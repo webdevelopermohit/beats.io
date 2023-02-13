@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Montserrat&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    background-color:rgb(36, 36, 36);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 6rem;
+}
+nav ul{
+    display: flex;
+   
+    list-style: none;
+}
+nav ul li a{
+   text-decoration: none;
+   padding: 0.5rem 1.5rem;
+   color: white;
+}
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.first-section-main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.first-section-main-content{
+    color: white;
+    width: 50%;
+}
+.first-section-main-content h1,h4{
+    margin: 1.5rem 0rem;
+}
+.first-section-main-img {
+    text-align: center;
+}
+.first-section-main-img img{
+    width: 13rem;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+ .add-to-bag-button,.More-inf-button,.Bay-Now-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: fit-content;
+    padding: 1rem;
+    margin: 1rem 0rem;
+    background-color: rgb(31, 31, 31);
+    border-radius: 0.5rem;   
+    cursor: pointer ;
+}
+ .add-to-bag-button:hover,.More-inf-button:hover,.Bay-Now-button:hover{
+    background-color: rgb(199, 198, 198);
+    color: black;
+}
+.first-section-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+#second-section,#third-section,#fifth-section{
+    text-align: center;
+    color: rgb(235, 233, 233);
+    padding: 2rem;
+}
+.second-section-main,.third-section-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-section-main-1,.second-section-main-2,.second-section-main-3,.second-section-main-4{
+    padding: 1rem;
+}
+.third-section-main-content{
+    width: 32%;
+    text-align: left;
+    padding: 3rem 5rem;  
+}
+#fourth-section{
+    padding: 3rem 6rem;
+}
+.fourth-section-main{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    padding: 3rem;
+    background-color: rgb(19, 19, 19);
+    border-radius: 0.5rem;
+}
+.fourth-section-main-content h2{
+    margin: 1rem 0rem;
+}
+.fifth-section-main{
+   width: 50%;
+   margin: 0 auto;
+}
+.fifth-section-main-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fifth-section-main-box{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(44, 44, 44);
+    border-radius: 1rem;
+}
+.fifth-section-main-box:hover{
+    background-color: rgb(236, 234, 234);
+    color: black;
+    cursor: pointer;
+}
+.fifth-section-main-bottem{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fifth-section-main-bottem img{
+    background-color: rgb(39, 39, 39);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.fifth-section-main-bottem img:hover{
+    background-color: rgb(153, 152, 152);
+}
+   
+.fifth-section-main-img{
+    width: 50%;
+    margin: 2rem;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+    background-color: rgb(19, 19, 19);
+    border-radius: 1rem;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    padding: 0.5rem;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li .active{
+    font-weight: 700;
+}
+.footer-contact-us input{
+    background-color: rgb(27, 27, 27);
+    border: none;
+    padding: 0.5rem;
+    
+}
+.footer-contact-us{
+    background-color: rgb(27, 27, 27);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    margin: 0.5rem;
+}
+.footer-contact-us button{
+    background-color: rgb(19, 19, 19);
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 0.5rem;
+}
+.footer-contact-us button:hover{
+    background-color: white;
+    color: black;
+}
+.footer-contact-us-img{
+    display: flex;
+    justify-content: space-around;
+}
